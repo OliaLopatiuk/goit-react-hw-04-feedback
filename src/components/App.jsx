@@ -21,6 +21,8 @@ const App = ({ options }) => {
       case 'bad':
         setBad(prev => prev + 1);
         break;
+      default:
+        console.log('Not proper name type');
     }
   };
 
